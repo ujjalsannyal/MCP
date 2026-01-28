@@ -1,0 +1,24 @@
+{
+  "name": "llm-client-with-prompt-01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node build/server.js",
+    "inspector": "npx @modelcontextprotocol/inspector node build/server.js",
+    "client": "tsc && node build/client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.22.0",
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "typescript": "^5.9.3"
+  }
+}
