@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "example-stdio-server": {
+      "command": "python",
+      "args": [
+        "src/server/server.py"
+      ],
+      "cwd": "/Users/ujjalsannyal/Documents/workspace/MCP/studio-server-03",
+      "env": {
+        "PYTHONUNBUFFERED": "1"
+      },
+      "description": "Example MCP stdio server with greeting and calculation tools",
+      "transport": "stdio"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+	"servers": {
+		"hello-mcp": {
+			"type": "stdio",
+			"command": "node",
+			"args": ["llm-client-with-prompt-01/build/index.js"]
+		}
+	},
+	"inputs": []
+}
